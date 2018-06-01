@@ -1,0 +1,11 @@
+{
+  "name": "code-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rhyzx/code-loader.git",
+  "author": "Bin Xin <rhyzix@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "require-from-string": "^2.0.2"
+  }
+}
