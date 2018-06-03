@@ -15,6 +15,7 @@ module.exports = function (code) {
   // watch
   const dep = ({ children }) => {
     for (const m of children) {
+      // TODO fix update after dep crash
       this.addDependency(m.filename)
       // clear cache
       // https://stackoverflow.com/a/11477602/1793548

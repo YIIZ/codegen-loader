@@ -1,12 +1,12 @@
-# code-loader
-Evaluate js(in Node) and export as source code.
+# codegen-loader
+Code generate
 
 
 ## Usage
 
 app.js
 ```js
-import { buildInfo } from '!!code-loader!./macro'
+import { buildInfo } from '!!codegen-loader!./macro'
 console.log(buildInfo) // 1.0.0#184a33
 ```
 
