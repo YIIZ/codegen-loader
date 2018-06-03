@@ -9,7 +9,7 @@ module.exports = function (code) {
 
   const m = new Module(filename)
   m.filename = filename
-  // m.paths = Module._nodeModulePaths(path.dirname(filename))
+  m.paths = Module._nodeModulePaths(path.dirname(filename))
   m._compile(code, filename)
 
   // watch
